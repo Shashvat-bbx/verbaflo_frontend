@@ -29,7 +29,7 @@ export default function Upload() {
     setLoading(true); // Start spinner
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/upload", {
+      const res = await fetch("http://3.236.24.12:8001/upload", {
         method: "POST",
         body: formData,
       });
